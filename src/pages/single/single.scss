@@ -1,0 +1,78 @@
+.single{
+    display: flex;
+    width: 100%;
+    .singlecontainer{
+    flex: 6;
+    .top{
+        display: flex;
+        padding: 20px;
+        .left{
+            flex: 1;
+            position: relative;
+            padding: 20px;
+    box-shadow: 2px 4px 10px 3px rgba(0,0,0,0.48);
+    -webkit-box-shadow: 2px 4px 10px 3px rgba(0,0,0,0.48);
+    -moz-box-shadow: 2px 4px 10px 3px rgba(0,0,0,0.48);
+        
+        .editbtn{
+            position: absolute;
+            top: 0;
+            right: 0;
+            font-size: 12px;
+            padding: 5px;
+            color: #7451f8;
+            background-color: #7551f82f;
+            border-radius: 0px 0px 0px 5px;
+            cursor: pointer;
+
+        }
+       
+        .item{
+            display: flex;
+            gap: 20px;
+        
+        .itemimg{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        } 
+        .details{
+            .itemtitle{
+                margin-bottom: 10px;
+                color: #555;
+            }
+            .detailitem{
+                margin-bottom: 10px;
+                font-size: 15px;
+            
+            .itemkey{
+                font-weight: bold;
+                color: grey;
+                margin-right: 15px;
+
+            }
+            .itemvalue{
+                font-weight: 300;
+            } }
+        }
+     }}
+
+.right{
+    flex: 2;
+    margin-left: 5px;
+  
+} }
+.bottom{
+    box-shadow: 2px 4px 10px 3px rgba(0,0,0,0.48);
+    -webkit-box-shadow: 2px 4px 10px 3px rgba(0,0,0,0.48);
+    -moz-box-shadow: 2px 4px 10px 3px rgba(0,0,0,0.48);
+    padding: 20px;
+    margin: 10px 20px;
+
+}
+.title{
+    font-size: 16px;
+    color: lightgrey;
+    margin-top: 20px;
+} } }
